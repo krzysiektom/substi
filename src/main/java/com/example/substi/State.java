@@ -2,7 +2,8 @@ package com.example.substi;
 
 public enum State {
     ACTIVE("aktualne"),
-    DONE("zrealizowane");
+    DONE("zrealizowane"),
+    OUT_OF_DATE("nieaktualne");
 
     private String state;
 
